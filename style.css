@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(20, 21, 24);
+  font-family: "Overpass", sans-serif;
+}
+
+.container {
+  background-color: rgb(33, 40, 49);
+  padding: 2rem;
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5%;
+  overflow: visible;
+}
+
+.rating {
+  align-self: center;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  color: hsl(217, 12%, 63%);
+  background-color: rgb(39, 46, 55);
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 15px;
+  width: 15px;
+  height: 15px;
+  list-style: none;
+  font-weight: 400;
+}
+
+.selected {
+  background-color: white;
+  color: rgb(33, 40, 49);
+}
+
+.selected-max {
+  color: rgb(33, 40, 49);
+  background-color: hsl(25, 97%, 53%);
+}
+
+li:hover {
+  background-color: white;
+  color: rgb(33, 40, 49);
+  cursor: pointer;
+}
+
+.max:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: rgb(33, 40, 49);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+button {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.star {
+  width: 0.8rem;
+  height: 0.8rem;
+  display: inline-block;
+  padding: 0.6rem;
+  border-radius: 50%;
+  background-color: rgb(39, 46, 55);
+}
+
+.starBG {
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  width: 80%;
+  border-radius: 40px;
+  height: 30px;
+}
+
+h1 {
+  font-family: "Overpass", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.thankYou {
+  display: none;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.ratingNumber {
+  text-align: center;
+  display: none;
+  background-color: rgb(39, 46, 55);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+  color: hsl(25, 97%, 53%);
+}
+
+.afterRating {
+  padding-top: 30px;
+  display: none;
+  align-content: center;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  font-family: "Overpass", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  display: none;
+}
